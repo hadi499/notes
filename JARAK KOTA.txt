@@ -1,0 +1,17 @@
+
+JARAK KOTA
+
+jakarta - bandung   109
+jakarta - surabaya   683
+jakarta - cirebon    200
+jakarta semarang 400
+surabaya - mojokerto 43
+surabaya - jombang 72
+surabaya - nganjuk 113
+surabaya - madiun 156
+surabaya - ponorogo 186
+gempol - bangil 11
+gempol - pasuruan 26
+gempol - probolinggo 62
+gempol - situbondo 154
+gempol - banyuwangi 226

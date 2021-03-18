@@ -1,0 +1,6 @@
+PHP & APACHE
+
+sudo apt-get install apache2
+
+
+sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-json php-pear php-dev php-xmlrpc php-zip php-fpm php-xml php-mbstring 

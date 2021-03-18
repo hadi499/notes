@@ -1,0 +1,21 @@
+REPORT CYBER SECURITY
+
+Examples of reports mentioned:
+==============================
+FireEye: https://www.fireeye.com/blog/threat-research/2021/01/phishing-campaign-woff-obfuscation-telegram-communications.html
+Securelist: https://securelist.com/sunburst-backdoor-kazuar/99981/
+Krebs: https://krebsonsecurity.com/​
+
+=======================
+Direct links mentioned:
+=======================
+Mandiant: https://www.fireeye.com/mandiant.html​
+Kaspersky Securelist: https://securelist.com/​
+Krebs: https://krebsonsecurity.com/​
+
+================
+Connect with Neal:
+================
+LinkedIn: https://www.linkedin.com/in/nealbridges/​
+Twitter: https://twitter.com/ITJunkie​
+Twitch: https://www.twitch.tv/cyber_insecurity

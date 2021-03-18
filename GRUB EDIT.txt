@@ -1,0 +1,8 @@
+GRUB EDIT
+
+Mengedit Default Grub
+
+sudo vim  /etc/default/grub 
+
+  
+sudo update-grub

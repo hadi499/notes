@@ -1,0 +1,97 @@
+UFW / FIREWALL
+
+
+
+sudo apt install ufw
+sudo sytemctl start ufw
+sudo sytemctl stop ufw
+sudo sytemctl status ufw
+
+
+
+    sudo ufw enable
+    sudo ufw disable
+
+
+
+	sudo nano /etc/default/ufw
+
+
+	IPV6=yes
+
+------------- setting-----------------------------
+
+    sudo ufw default deny incoming
+    sudo ufw default allow outgoing
+
+
+
+    sudo ufw allow ssh
+
+    sudo ufw allow 22
+
+    sudo ufw allow 2222
+
+	
+
+
+For example, to allow X11 connections, which use ports 6000-6007, use these commands:
+
+    sudo ufw allow 6000:6007/tcp
+    sudo ufw allow 6000:6007/udp
+
+
+
+    sudo ufw allow from 203.0.113.4
+
+
+    sudo ufw allow from 203.0.113.4 to any port 22
+
+
+    sudo ufw allow from 203.0.113.0/24
+
+Likewise, you may also specify the destination port that the subnet 203.0.113.0/24 is allowed to connect to. Again, we’ll use port 22 (SSH) as an example:
+
+    sudo ufw allow from 203.0.113.0/24 to any port 22
+    
+    
+
+Connections to a Specific Network Interface
+
+    sudo ufw allow in on eth0 to any port 80
+
+Doing so would allow your server to receive HTTP requests from the public internet.
+
+Or, if you want your MySQL database server (port 3306) to listen for connections on the private network interface eth1, for example, you could use this command:
+
+    sudo ufw allow in on eth1 to any port 3306
+
+This would allow other servers on your private network to connect to your MySQL database.
+
+
+Step 6 — Denying Connections
+
+
+
+    sudo ufw deny http
+
+Or if you want to deny all connections from 203.0.113.4 you could use this command:
+
+    sudo ufw deny from 203.0.113.4
+
+
+
+Step 7 — Deleting Rules
+
+
+    sudo ufw status numbered
+
+Numbered Output:
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22                         ALLOW IN    15.15.15.0/24
+[ 2] 80                         ALLOW IN    Anywhere
+
+	sudo ufw delete 2

@@ -1,0 +1,28 @@
+VIRTUALENV
+
+sudo apt install python3-venv
+
+
+python3 -m venv venv
+
+source django_env/bin/activate
+pip freeze >  requirements.txt 
+pip install -r requirements.txt
+
+
+
+
+
+
+sudo apt install virtualenv
+
+which virtualenv 
+mkdir django
+cd django
+
+virtualenv my-env 
+source my-env/bin/activate
+
+
+# keluar env
+deactivate

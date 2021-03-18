@@ -1,0 +1,9 @@
+CLEAN WINDOWA CACHE
+
+%temp%    Appdata->local->temp
+run --> temp
+run --> prefetch
+C:\Windows\SoftwareDistribution\Download
+diskclean
+
+cmd run as administrator --> WSReset.exe     --> clean microsoft store

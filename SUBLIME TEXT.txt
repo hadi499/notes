@@ -1,0 +1,5 @@
+SUBLIME TEXT
+
+"font_size": 12,
+"line_padding_top": 3,   
+"line_padding_bottom": 3,

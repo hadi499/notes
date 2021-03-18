@@ -1,0 +1,9 @@
+KALI TIMEZONE
+
+sudo rm /etc/localtime
+sudo ln -sr /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+
+
+
+date --set 1998-11-02 
+date --set 11:04:00

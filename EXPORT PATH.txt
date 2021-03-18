@@ -1,0 +1,4 @@
+EXPORT PATH
+
+# path xampp
+export PATH="/opt/lampp/bin:$PATH"

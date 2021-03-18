@@ -1,0 +1,26 @@
+REACT
+
+npx create-react-app my-app
+
+cd my-app
+
+npm start
+
+
+-------error---------------
+
+Starting the development server...
+
+events.js:183
+  throw er; // Unhandled 'error' event
+  
+  
+Error: ENOSPC: System limit for number of file watchers reached, watch '/home/hadi/coding/reactjs/react-state-props/src/index.js'
+  
+  
+npm cache clean --force
+rm -rf node_modules package-lock.json 
+npm install
+npm start
+
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p

@@ -1,0 +1,20 @@
+BUILT SUBLIME-TEXT
+
+Tools -> Build System -> New Build System and make sure that the new build system has this following command
+UNIX STYLE
+
+{
+ "cmd": ["/usr/bin/python3", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+
+WINDOWS STYLE
+
+{
+ "cmd":["C:/Users/<user>/AppData/Local/Programs/Python/Python37-32/python.exe", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+
+and save this file as newPython3.sublime-build

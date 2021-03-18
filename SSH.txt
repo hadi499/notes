@@ -1,0 +1,19 @@
+SSH
+
+$ ssh root@10.1.1.12
+root@10.1.1.12's password: 
+Permission denied, please try again.
+root@10.1.1.12's password: 
+Permission denied, please try again.
+root@10.1.1.12's password: 
+Permission denied (publickey,password).
+
+To enable SSH login for a root user on Debian Linux system you need to first configure SSH server. Open /etc/ssh/sshd_config and change the following line:
+
+FROM:
+PermitRootLogin without-password
+TO:
+PermitRootLogin yes
+
+
+# /etc/init.d/ssh restart

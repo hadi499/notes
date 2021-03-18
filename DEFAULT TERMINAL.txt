@@ -1,0 +1,7 @@
+DEFAULT TERMINAL
+
+sudo update-alternatives --config x-terminal-emulator
+
+-------budgie--------
+
+gsettings set org.cinnamon.desktop.default-applications.terminal exec 'gnome-terminal'
