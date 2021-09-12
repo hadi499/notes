@@ -1,0 +1,3 @@
+----python tidak running-------
+ketik di git shell
+alias python='winpty python.exe'
